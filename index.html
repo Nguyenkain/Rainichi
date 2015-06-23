@@ -17,6 +17,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -26,7 +27,8 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
 <![endif]-->
-<nav class="navbar">
+<div class="container nav-container">
+<nav class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -37,7 +39,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            <a class="navbar-brand" href="#"><img class="img-responsive" src="img/logo.png"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -65,22 +67,34 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
-
+</div>
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="slide">
-    <img src="img/slide-01.png">
+<div class="slides">
+    <div class="slide-wrapper swiper-wrapper">
+        <div class="swiper-slide">
+            <img class="img-responsive" src="img/slide-01.png">
+        </div>
+        <div class="swiper-slide">
+            <img class="img-responsive" src="img/slide-01.png">
+        </div>
+        <div class="swiper-slide">
+            <img class="img-responsive" src="img/slide-01.png">
+        </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
 </div>
 <div id="background">
 <div class="container">
     <!-- Example row of columns -->
     <div class="row reason">
-        <img src="img/4-top.png">
+        <img class="img-responsive" src="img/4-top.png">
     </div>
 
     <div class="row reason-list">
         <div class="col-xs-6 col-md-3 reason-item">
             <a href="#" class="thumbnail">
-                <img src="img/4-1.png" data-holder-rendered="true" style="width: 100%; display: block;">
+                <img class="img-responsive" src="img/4-1.png" data-holder-rendered="true" style="width: 100%; display: block;">
 
                 <div class="caption">
                     <h5>TIẾN BỘ NHANH NHẤT</h5>
@@ -89,7 +103,7 @@
         </div>
         <div class="col-xs-6 col-md-3 reason-item">
             <a href="#" class="thumbnail">
-                <img src="img/4-2.png" data-holder-rendered="true" style="width: 100%; display: block;">
+                <img class="img-responsive" src="img/4-2.png" data-holder-rendered="true" style="width: 100%; display: block;">
 
                 <div class="caption">
                     <h5>TIẾT KIỆM NHẤT</h5>
@@ -98,7 +112,7 @@
         </div>
         <div class="col-xs-6 col-md-3 reason-item">
             <a href="#" class="thumbnail">
-                <img src="img/4-3.png" data-holder-rendered="true" style="width: 100%; display: block;">
+                <img class="img-responsive" src="img/4-3.png" data-holder-rendered="true" style="width: 100%; display: block;">
 
                 <div class="caption">
                     <h5>THOẢI MÁI NHẤT</h5>
@@ -107,7 +121,7 @@
         </div>
         <div class="col-xs-6 col-md-3 reason-item">
             <a href="#" class="thumbnail">
-                <img src="img/4-4.png" data-holder-rendered="true" style="width: 100%; display: block;">
+                <img class="img-responsive" src="img/4-4.png" data-holder-rendered="true" style="width: 100%; display: block;">
 
                 <div class="caption">
                     <h5>HIỆU QUẢ NHẤT</h5>
@@ -170,7 +184,7 @@
     <div class="row contact">
         <div class="col-xs-6 col-md-4 contact-item">
             <a href="#" class="thumbnail">
-                <img src="img/hoc-thu.png" data-holder-rendered="true" style="width: 100%; display: block;">
+                <img class="img-responsive" src="img/hoc-thu.png" data-holder-rendered="true" style="width: 100%; display: block;">
             </a>
         </div>
         <form>
@@ -255,7 +269,7 @@
 
 
     <footer>
-      <div class="footer-area">
+      <div class="footer-area clearfix">
         <div class="container">
           <div class="row">
             <div class="col-md-6 link-map">
@@ -266,19 +280,19 @@
                     <li><a href="#">Việc làm</a></li> |
                     <li><a href="#">Liên lạc</a></li>
                 </ul>
-                <p> Rai-Nichi (cơ sở chính)
-                  <p>112 Đường số 1 ,quận 1 ,TP.HCM
-                    <p>08 6227172
-                      <p>rai-nichi@gmail.com
+                <p> Rai-Nichi (cơ sở chính)</p>
+                  <p>112 Đường số 1 ,quận 1 ,TP.HCM</p>
+                    <p>08 6227172</p>
+                      <p>rai-nichi@gmail.com</p>
             </div>
 
               <div class="col-md-6 logo">
-                  <img src="img/footer-logo.png">
+                  <img class="img-responsive" src="img/footer-logo.png">
                   <ul>
-                    <li><a href="#"><img src="img/sns-1.png"></li>
-                    <li><a href="#"><img src="img/sns-2.png"></li>
-                    <li><a href="#"><img src="img/sns-3.png"></li>
-                    <li><a href="#"><img src="img/sns-4.png"></li>
+                    <li><a href="#"><img src="img/sns-1.png"></a></li>
+                    <li><a href="#"><img src="img/sns-2.png"></a></li>
+                    <li><a href="#"><img src="img/sns-3.png"></a></li>
+                    <li><a href="#"><img src="img/sns-4.png"></a></li>
                 </ul>
               </div>
           </div>
@@ -292,6 +306,7 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
 <script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/swiper.jquery.min.js"></script>
 
 <script src="js/main.js"></script>
 </body>
