@@ -20,7 +20,7 @@ body .navbar{
 }
 
 #background{
-    background-color:#f2f2f2;
+	background-color:#f2f2f2;
 }
 .navbar-nav>li>a {
     padding-top: 5px;
@@ -66,8 +66,8 @@ body .navbar{
 }
 
 .container{
-    padding-left: 10%;
-    padding-right: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .container .row.reason{
@@ -80,41 +80,41 @@ body .navbar{
 }
 
 .container .row.reason-list,.row.introduce-area{
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .container .row.introduce-2-area .information{
     padding-left: 20px;
-    padding-right: 30px;
-    font-size: 12px;
+  padding-right: 30px;
+  font-size: 12px;
 }
 
 .container .row.introduce-2-area .information h5{
-    padding-left: 10px;
-    color: #ffffff;
-    font-size: 18px;
-    padding-top: 10px;
+	padding-left: 10px;
+color: #ffffff;
+  font-size: 18px;
+  padding-top: 10px;
 }
 
 .container .row.introduce-2-area .information .information-item-header span{
-    color: #ffc543;
-    padding-left: 10px;
+  color: #ffc543;
+  padding-left: 10px;
 }
 
 .container .row.introduce-2-area .information .information-item-body {
-    padding-left: 10px;
+	padding-left: 10px;
 }
 
 .container .row.introduce-2-area .information .information-item-footer {
-    padding-left: 10px;
+	padding-left: 10px;
 }
 
 .container .row.introduce-2-area .information .information-item-body span{
-    color:#ffffff;
+	color:#ffffff;
 }
 
 .container .row.introduce-2-area .information .information-item-footer span{
-    color:#ffc543;
+	color:#ffc543;
 }
 
 .container .row.reason-list .reason-item a{
@@ -257,21 +257,21 @@ body .navbar{
 }
 
 .container .row .common-title{
-    color: #e25b25;
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 18px;
+	color: #e25b25;
+	font-weight: bold;
+	margin-bottom: 10px;
+  	font-size: 18px;
 }
 
 
 .container .row .common-title .telephone-num{
-    font-size: 30px;
-    color: #ffc543;
-    font-style: italic;
+  font-size: 30px;
+  color: #ffc543;
+  font-style: italic;
 }
 
 .container .row.title {
-    margin-top: 20px;
+	margin-top: 20px;
 }
 
 .container .row.contact .contact-item a{
@@ -281,7 +281,7 @@ body .navbar{
 }
 .container .row.contact .contact-item:first-child{
     padding-left: 0;
-    width: 300px;
+  	width: 300px;
 }
 
 .container .row.contact .contact-item label{
@@ -300,41 +300,41 @@ body .navbar{
 
 .container .row.contact .contact-item .radio-label{
     width: 49%;
-    margin-top: 15px;
-    text-align: justify;
+  	margin-top: 15px;
+  	text-align: justify;
 }
 .container .row.contact .contact-item .radio-label input[type="radio"]{
     margin-left: 5px;
 }
 
 .container .row.contact .contact-item .submit-btn button{
-    background-color: #ffc543;
-    color: #ffffff;
-    border: none;
-    height: 23px;
+  background-color: #ffc543;
+  color: #ffffff;
+  border: none;
+  height: 23px;
 }
 
 .container .row.contact .contact-item .submit-btn {
-    text-align: right;
+	text-align: right;
 }
 footer .container .row .logo {
     text-align: right;
     padding-top: 45px;
 }
 footer .container .row .logo ul{
-    list-style: none;
-    padding-left: 0;
-    width: 50%;
-    float: left;
-    margin-top: 10px;
+	list-style: none;
+	padding-left: 0;
+	  width: 50%;
+  float: left;
+  margin-top: 10px;
 }
 
 footer .container .row .logo ul li{
-    display: inline-block;
+	display: inline-block;
 }
 footer .container .row .link-map {
-    padding-top: 20px;
-    color: #ffffff;
+	padding-top: 20px;
+	color: #ffffff;
 }
 
 footer .container .row .link-map ul{
@@ -343,7 +343,9 @@ footer .container .row .link-map ul{
 }
 
 footer .container .row .link-map ul li{
-    display: inline-block;
+	display: inline-block;
+}
+footer .container .row .link-map ul li a{
     color: #ffffff;
 }
 
