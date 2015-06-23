@@ -299,7 +299,9 @@ footer .container .row .link-map ul{
 
 footer .container .row .link-map ul li{
 	display: inline-block;
-	color: #ffffff;
+}
+footer .container .row .link-map ul li a{
+    color: #ffffff;
 }
 
 footer .container .row .link-map p{
