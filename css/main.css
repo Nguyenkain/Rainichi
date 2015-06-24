@@ -136,7 +136,7 @@ body .navbar {
     -moz-border-radius: 120px;
     border-radius: 120px;
     margin-top: 20px;
-    /*padding: 7px;*/
+    padding: 7px 0;
     text-align: center;
 }
 
