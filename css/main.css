@@ -332,6 +332,10 @@ footer .container .row .logo {
     padding-top: 45px;
 }
 
+footer .container .row .logo img{
+    display: inline-block;
+}
+
 footer .container .row .logo ul {
     list-style: none;
     padding-left: 0;
@@ -494,4 +498,11 @@ body .navbar.navbar-default {
         background: #8d8c8c;
     }
 
+    footer .container .row .logo ul {
+        width: 50%;
+        float:left;
+    }
+    footer .container .row .logo {
+        margin-bottom: 45px;
+    }
 }
