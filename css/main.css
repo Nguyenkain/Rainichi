@@ -423,6 +423,7 @@ body .navbar.navbar-default {
     background: url("../img/bg2.png") no-repeat;
     background-size: 100% 100%;
     position: relative;
+    overflow: hidden;
 }
 .swiper-slide {
     text-align: center;
@@ -509,5 +510,13 @@ body .navbar.navbar-default {
 @media(max-width: 480px) {
     .container .row.reason-list .reason-item a .caption h5 {
         font-size: 11px;
+    }
+    .container .row .course .day{
+        left:0;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .container .row .course .day .description{
+        position: relative;
     }
 }
