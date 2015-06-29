@@ -131,6 +131,10 @@ body .navbar {
     box-shadow: none;
 }
 
+.container .row.reason-list .reason-item a:hover {
+    text-decoration: none;
+}
+
 .container .row.reason-list .reason-item a .caption {
     background-color: #e25b25;
     color: #ffffff;
@@ -455,6 +459,59 @@ body .navbar.navbar-default {
     width: 12px;
     height: 12px;
 }
+
+/**
+================
+FLIPPER
+================
+**/
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 100%;
+    height: auto;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+}
+/**
+================
+END FLIPPER
+================
+**/
 
 @media (max-width: 768px) {
     .container .row .course .info-course a {

@@ -94,8 +94,21 @@
         <div class="row reason-list">
             <div class="col-xs-6 col-sm-3 reason-item">
                 <a href="#" class="thumbnail">
-                    <img class="img-responsive" src="img/4-1.png" data-holder-rendered="true"
-                         style="width: 100%; display: block;">
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <img class="img-responsive" src="img/4-1.png" data-holder-rendered="true"
+                                 style="width: 100%; visibility: hidden">
+                            <div class="front">
+                                <img class="img-responsive" src="img/4-1.png" data-holder-rendered="true"
+                                     style="width: 100%; display: block;">
+                            </div>
+                            <div class="back">
+                                <img class="img-responsive" src="img/4-1-hover.png" data-holder-rendered="true"
+                                     style="width: 100%; display: block;">
+                            </div>
+                        </div>
+                    </div>
+
 
                     <div class="caption">
                         <h5>TIẾN BỘ NHANH NHẤT</h5>
