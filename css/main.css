@@ -480,9 +480,17 @@ body .navbar.navbar-default {
     align-items: center;
 }
 
-.swiper-pagination-bullet {
+.slides.swiper-container-horizontal>.swiper-pagination {
+    bottom: 18%;
+}
+
+.slides .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
+}
+
+.slides .swiper-pagination-bullet-active {
+    background: #fff;
 }
 
 /**
