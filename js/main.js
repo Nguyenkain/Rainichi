@@ -4,5 +4,10 @@ $(document).ready(function() {
         pagination: '.swiper-pagination',
         autoplayDisableOnInteraction: false
     });
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.info-pagination',
+        autoplayDisableOnInteraction: true
+    });
 });
 

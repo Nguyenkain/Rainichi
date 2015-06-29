@@ -104,6 +104,31 @@ body .navbar {
     padding-top: 10px;
 }
 
+.container .row.introduce-2-area .information .swiper-slide {
+    display: block;
+}
+
+.container .row.introduce-2-area .information .info-pagination {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.container .row.introduce-2-area .information .info-pagination .swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.container .row.introduce-2-area .information .info-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+}
+
+.container .row.introduce-2-area .information .information-item {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+
 .container .row.introduce-2-area .information .information-item-header span {
     color: #ffc543;
     padding-left: 10px;
