@@ -586,6 +586,582 @@ END FLIPPER
 ================
 **/
 
+.rotate {
+
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+/*
+COMMON
+*/
+
+.container.common{
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: 20px;
+}
+
+.content .pagination{
+    text-align: right;
+    display: block;
+}
+
+.content .pagination ul{
+    list-style: none;
+}
+
+.content .pagination ul li{
+    display: inline-block;
+}
+
+.content .pagination ul li a{
+    color: #E25B25;
+}
+
+.content .pagination ul li a.active{
+    color: #000000;
+}
+
+.content .see-more{
+    margin: 10px 0;
+    font-size: 13px;
+    text-align: right;
+}
+
+.content .see-more a {
+    color: #E25B25;
+}
+/*
+END COMMON
+*/
+
+/*SIDEBAR*/
+
+.container .sidebar {
+    display: table-cell;
+    float: none;
+    vertical-align: top;
+}
+
+.container .sidebar .row.contact .contact-item textarea,.container .sidebar .row.contact .contact-item input[type="text"] {
+    background-color: #F9C893;
+}
+
+.container .sidebar .sidebar-logo img{
+    margin: 0 auto;
+}
+
+.container .sidebar .sidebar-fb {
+    margin-top: 10px;
+    padding-right: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container .sidebar .sidebar-fb a img{
+    max-width: 100%;
+}
+
+.container .sidebar .row .common-title {
+    font-size: 15px;
+}
+
+.container .sidebar .row .common-title .telephone-num {
+    font-size: 22px;
+}
+
+.container .sidebar .sidebar-sub-menu{
+    margin-bottom: 20px;
+}
+
+.container .sidebar .sidebar-sub-menu .dropdown button{
+    background: #E25B25;
+    color:#ffffff;
+    border: none;
+    text-shadow: none;
+    border-radius: 0;
+}
+
+.container .sidebar .sidebar-sub-menu .dropdown ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container .sidebar .sidebar-sub-menu .dropdown ul li{
+    background: #353434;
+    padding: 5px;
+    border-bottom: 1px solid #ffffff;
+    font-size: 12px;
+}
+
+.container .sidebar .sidebar-sub-menu .dropdown ul li a{
+    color:#ffffff;
+}
+
+.container .sidebar .sidebar-sub-menu .dropdown ul li a.active{
+    color:#E25B25;
+}
+
+
+/*END SIDEBAR*/
+
+/*CONTACT*/
+.container .content{
+    padding: 20px;
+    background-color: #ffffff;
+    position: relative;
+    display: table-cell;
+    float: none;
+}
+
+.container .content .bottom-triangle{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+
+.container .content .contact-info{
+    background: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+.container .content .contact-info .address{
+    margin-top: 115px;
+}
+.container .content .contact-info .address p{
+    margin: 0;
+}
+.container .content .contact-info .address ul{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+.container .content .contact-info .address ul li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.container .content .contact-info .contact-form textarea,.container .content .contact-info .contact-form input{
+    background: #E25B25;
+    color:#ffffff;
+}
+
+.container .content .contact-info .contact-form ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ffffff;
+}
+.container .content .contact-info .contact-form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ffffff;
+}
+.container .content .contact-info .contact-form ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ffffff;
+}
+.container .content .contact-info .contact-form :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #ffffff;
+}
+
+.container .content .contact-info .contact-form .input-1{
+    padding-right: 3px;
+}
+
+.container .content .contact-info .contact-form .input-2{
+    padding-left: 3px;
+}
+
+.container .content .contact-info .contact-form textarea{
+    resize: none;
+}
+
+.container .content .contact-info .contact-form .submit-btn{
+    text-align: right;
+}
+
+.container .content .contact-info .contact-form .submit-btn button {
+    background: #E25B25;
+    width: 70px;
+    border: none;
+    color:#ffffff;
+}
+
+.container .content .contact-map{
+    margin-top: 20px;
+}
+.container .content .contact-list{
+    margin-top: 20px;
+}
+.container .content .contact-list .order-number{
+    background: url('../img/contact-list-bg.png');  width: 37px;
+    height: 52px;
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    padding-top: 2px;
+    float: left;
+}
+
+.container .content .contact-list .address{
+    float: left;
+    padding: 20px 0 0 15px;
+}
+
+.container .content .contact-list .address-link {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.container .content .contact-list .address-link a{
+    color: #E15825;
+}
+
+/*END CONTACT*/
+
+/*NEWS*/
+
+.container .content .news-item{
+    margin-bottom: 50px;
+}
+
+.container .content .news-item .news-item-date{
+    color: #ffffff;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.container .content .news-item .news-item-date div{
+    background: #E15825;
+    height: 80px;
+}
+
+.container .content .news-item .news-item-date div{
+    background: #E15825;
+    height: 80px;
+}
+
+.container .content .news-item .news-item-info{
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.container .content .news-item .news-item-info h4{
+    margin-top: 0;
+}
+
+.container .content .news-item .news-item-info .options{
+    border-top: 1px solid #A2A2A1;
+    border-bottom: 1px solid #A2A2A1;
+    padding: 10px 0;
+}
+
+.container .content .news-item .news-item-info .thum-img img{
+    margin: 0 auto;
+}
+
+.container .content .news-item .news-item-info .short-des{
+
+}
+
+.container .content .news-item .news-item-info .short-des ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container .content .news-item .news-item-info .short-des ul li{
+    margin-bottom: 10px;
+}
+.container .content .news-item .news-item-info .short-des ul li:before{
+    content: "• ";
+    color: #E15825;
+}
+.container .content .news-item .news-item-info .link-map{
+    padding: 0;
+}
+
+.container .content .news-item .news-item-info .link-map ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 10px;
+}
+
+.container .content .news-item .news-item-info .link-map ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container .content .news-item .news-item-info .link-map ul li:before{
+    content:">> ";
+    color: #E15825;
+}
+
+.container .content .news-item .news-item-info .link-map ul li a{
+    color: #E15825;
+}
+
+.container .content .news-item .news-item-info .sns ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container .content .news-item .news-item-info .sns ul li{
+    display: inline-block;
+}
+/*END NEWS*/
+
+/*ABOUT*/
+
+.content .about-breadcrumb{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.content .about-breadcrumb img{
+    margin: 20px 0;
+}
+
+.row.teacher-item{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.row.teacher-item .teacher-info{
+    padding-left: 0;
+}
+.row.teacher-item .teacher-info-2{
+    padding-right: 0;
+}
+
+.row.teacher-item .common-title{
+    font-size: 14px;
+}
+
+.row.teacher-item .intro-head-title{
+    font-size: 12px;
+}
+
+.row.teacher-item .teacher-des{
+    font-size: 13px;
+    text-align: justify;
+}
+
+.row.share-item{
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+
+.row.share-item .share-img{
+    margin: 0 auto;
+    padding-right: 0;
+}
+.row.share-item .share-img-2{
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.row.share-item .share-info{
+    padding: 15px;
+    background: #FFC543;
+    position: relative;
+}
+
+.row.share-item .share-info-2{
+    padding: 15px;
+    background: #E15825;
+    position: relative;
+}
+
+.row.share-item .share-info .share-info-bottom-triangle{
+    position: absolute;
+    left: 0;
+    bottom: -26px;
+}
+
+.row.share-item .share-info-2 .share-info-bottom-triangle{
+    position: absolute;
+    right: 0;
+    bottom: -26px;
+}
+
+.row.share-item .share-info .share-name{
+    color: #E15825;
+}
+
+.row.share-item .share-info-2 .share-name{
+    color: #FFC543;
+}
+
+.row.share-item .share-info .share-content{
+    text-align: justify;
+}
+
+.row.share-item .share-info-2 .share-content{
+    text-align: justify;
+    color :#ffffff;
+}
+
+.row.reason-item{
+    margin-top:20px;
+}
+
+.row.reason-item .reason-title{
+    width: 200px;
+    color: #ffffff;
+    background: #F3961F;
+    border-radius: 120px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.row.reason-item .reason-content{
+    padding-top: 10px;
+}
+.row.reason-item .reason-content ul{
+    padding-left: 5px;
+}
+
+.row.reason-item .reason-content ul li:nth-child(odd) {
+    list-style: url('../img/about-reason-odd.png');
+}
+.row.reason-item .reason-content ul li:nth-child(even) {
+    list-style: url('../img/about-reason-even.png');
+}
+
+.content .reason-img ul{
+    list-style: none;
+    padding: 0 10%;
+    margin: 40px 0;
+}
+
+.content .reason-img ul li{
+    display: inline-block;
+    width: 24%;
+}
+.content .reason-img ul li img{
+    margin: 0 auto;
+}
+
+/*END ABOUT*/
+
+/*LOGIN*/
+
+.content .login-bg{
+    position: relative;
+}
+
+.content .login-form{
+    top: 50px;
+    right: 10%;
+    position: absolute;
+    width: 100%;
+}
+
+.content .login-form .login-title {
+    padding-left: 0;
+    font-weight: bold;
+    color: #F3961F;
+    margin-bottom: 10px;
+}
+
+.content .login-form .form-horizontal .control-label {
+    text-align: left;
+    margin-bottom: 0;
+    padding: 7px 0 0 0;
+    font-size: 12px;
+}
+
+.content .login-form .form-horizontal .form-control{
+    border-radius: 0;
+    background-color: #E05625;
+    color: #ffffff;
+}
+
+.content .login-form .forgot-password{
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.content .login-form .forgot-password a{
+    color:#000000;
+}
+
+.content .login-form .login-btn{
+    text-align: right;
+}
+
+.content .login-form .login-btn .btn{
+    background: #F3961F;
+    color: #ffffff;
+    padding: 0 5px;
+    border: none;
+    text-shadow: none;
+    border-radius: 0;
+}
+
+/*END LOGIN*/
+
+/*COURSE*/
+.content .course-item-1{
+    margin-top: 20px;
+}
+.content .course-item-1 .course-info-main{
+
+}
+
+.content .course-item-1 .course-info-des{
+
+}
+
+.content .course-item-1 .course-info-des .ran{
+    color: #E25B25;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.content .course-item-1 .course-info-des .question{
+    color: #E25B25;
+}
+
+.content .course-item-1 .course-info-des .answer{
+    text-align: justify;
+}
+
+.content .row.course-reason{
+    display: table;
+    margin: 30px 0;
+}
+.content .row.course-reason .course-reason-img img{
+    margin: 0 auto;
+}
+.content .row.course-reason .course-reason-img{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+
+.content .row.course-reason .course-reason-content{
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+
+/*END COURSE*/
 @media (max-width: 768px) {
     .container .row .course .info-course a {
         font-size: 2vw;
@@ -664,6 +1240,36 @@ END FLIPPER
     footer .footer-area {
         height: auto;
     }
+    footer .container .row .link-map {
+        text-align: center;
+    }
+    .container .content .contact-info .contact-form .input-1 {
+         padding-right: 15px;
+    }
+    .container .content .contact-info .contact-form .input-2 {
+         padding-left: 15px;
+    }
+    .container .content .contact-info .address {
+        margin-top: 0;
+    }
+    .container .content .contact-list .address {
+        font-size: 12px;
+    }
+    .container .content .contact-list .address-link {
+        padding-top: 44px;
+    }
+    .container .sidebar .sidebar-logo{
+        padding-top: 20px;
+    }
+    .container .content .news-item .news-item-info .link-map ul li {
+        margin-right: 8px;
+    }
+    .container .sidebar .sidebar-sub-menu {
+        margin-top: 20px;
+    }
+    .container .sidebar ,.container .content{
+        display: block;
+    }
 }
 
 @media(max-width: 480px) {
@@ -679,5 +1285,81 @@ END FLIPPER
     }
     .container .row .course .day .description{
         position: relative;
+    }
+    .container .content .contact-list .address-link {
+        padding-top: 10px;
+    }
+    .container .content .news-item .news-item-date {
+        padding: 0 10px;
+    }
+    .container .content .news-item .news-item-info .link-map ul {
+        font-size: 8px;
+    }
+    .container .content .news-item .news-item-info .sns {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .row.teacher-item .teacher-img img,.row.teacher-item .teacher-img-2 img{
+        margin: 0 auto;
+    }
+    .row.teacher-item .teacher-img,.row.teacher-item .teacher-img-2{
+        margin-bottom: 10px;
+    }
+    .row.share-item .share-img img,.row.share-item .share-img-2 img {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .content .reason-img ul li {
+        width: 49%;
+    }
+    .content .login-form .login-title {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .content .login-form {
+        top: 14px;
+    }
+    .content .login-form .form-horizontal .control-label {
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    .content .login-form .form-horizontal .form-group {
+        margin: 0 -15px;
+    }
+    .content .row.course-reason .course-reason-img {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .content .row.course-reason {
+        display: block;
+    }
+}
+
+@media (max-width: 320px) {
+    .container .content .news-item .news-item-date {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .content .login-form {
+        margin: 0;
+        position: relative;
+        width: 100%;
+        top: auto;
+        right: auto;
+        background: url('../img/login-bg.png');
+        background-size: 100% 100%;
+        padding: 15px;
+    }
+    .content .login-form .login-area{
+        width: 100%;
+    }
+    .content .login-bg #login-bg{
+        display: none;
+    }
+    .content .login-form .forgot-password {
+         margin-bottom: 0;
+    }
+    .content .login-form .login-btn .btn {
+        margin-bottom: 15px;
     }
 }
