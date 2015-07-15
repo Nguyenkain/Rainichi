@@ -665,14 +665,13 @@ END COMMON
     margin: 0 auto;
 }
 
-.container .sidebar .sidebar-fb {
+.container .sidebar .sidebar-fb ,.container .sidebar .sidebar-broch{
     margin-top: 10px;
     padding-right: 15px;
     text-align: center;
-    margin-bottom: 20px;
 }
 
-.container .sidebar .sidebar-fb a img{
+.container .sidebar .sidebar-fb a img,.container .sidebar .sidebar-broch a img{
     max-width: 100%;
 }
 
@@ -1240,6 +1239,257 @@ END COMMON
 
 /*END NEWS DETAIL*/
 
+/*PLAN*/
+
+.content .circle-calendar{
+    position: relative;
+}
+
+.content .circle-calendar img{
+    margin: 0 auto;
+}
+
+.content .circle-calendar .calendar-content{
+    position: absolute;
+    top: 30%;
+    left: 5px;
+    width: 100%;
+}
+
+.content .circle-calendar .calendar-content .ran ,.content .circle-calendar .calendar-content .date{
+    text-align: center;
+    color:#ffffff;
+    font-size: 43px;
+}
+
+.content .plan-table{
+    margin-top: 20px;
+}
+
+.content .plan-table th,.content .plan-table td{
+    border: 1px solid #ffffff;
+}
+
+.content .plan-table th{
+    font-size: 10px;
+    background: #F3961F;
+    color: #ffffff;
+    width: 15%;
+    text-align: center;
+}
+
+.content .plan-table td{
+    font-size: 9px;
+    background: #AEADAE;
+    color : #5D5E5E;
+}
+
+.content .plan-table td:first-child{
+    background: #DF5326;
+    color: #ffffff;
+}
+
+.content .plan-table{
+
+}
+
+/*END PLAN*/
+
+/*COURSE TEACHER*/
+
+.content.course-teacher p.teach-content-item{
+    margin: 10px 0 0 0;
+    color: #E25B25;
+    position: relative;
+    z-index: 2;
+}
+
+.content.course-teacher ul{
+    padding-left: 0;
+    list-style: none;
+    position: relative;
+    z-index: 2;
+}
+
+.content.course-teacher ul.mb{
+    margin-bottom: 450px;
+}
+
+.content.course-teacher ul li:before{
+    content: "• ";
+    color: #E15825;
+}
+
+.content.course-teacher .teacher-img{
+    position: absolute;
+    right: 5px;
+    top: 20%;
+    z-index: 1;
+}
+
+/*END COURSE TEACHER*/
+
+/*COURSE PACKAGE*/
+.content.course-package p.teach-package-item{
+    margin: 10px 0 0 0;
+    color: #E25B25;
+}
+
+.content.course-package .package-img{
+    text-align: right;
+}
+
+.content.course-package .package-img img{
+    display: inline-block;
+}
+
+.content.course-package ul{
+    padding-left: 0;
+    list-style: none;
+}
+.content.course-package ul li{
+    padding: 20px 0;
+}
+.content.course-package ul li:before{
+    content: "• ";
+    color: #E15825;
+}
+
+.content.course-package .package-table{
+    margin-top: 20px;
+}
+
+.content.course-package .package-table th,.content .package-table td{
+    border: 1px solid #ffffff;
+}
+
+.content.course-package .package-table th{
+    font-size: 14px;
+    background: #F3961F;
+    color: #ffffff;
+    width: 17%;
+}
+
+.content.course-package .package-table th:nth-child(2){
+    width: 32%;
+}
+
+.content.course-package .package-table td{
+    font-size: 11px;
+    background: #F1F0F0;
+}
+
+.content.course-package .package-table-1{
+    margin-top: 20px;
+}
+
+.content.course-package .package-table-1 th,.content .package-table-1 td{
+    border: 1px solid #ffffff;
+}
+
+.content.course-package .package-table-1 th{
+    font-size: 14px;
+    background: #F3961F;
+    color: #ffffff;
+    width: 25%;
+    text-align: center;
+}
+
+.content.course-package .package-table-1 td{
+    font-size: 11px;
+    background: #F1F0F0;
+    text-align: center;
+}
+
+.content.course-package .package-table-1 td.empty{
+    background: #AEADAE;
+}
+
+.content.course-package .package-table-1 td:first-child{
+    background: #E66525;
+    color: #ffffff;
+    text-align: left;
+}
+/*END COURSE PACKAGE*/
+
+/*STUDENT*/
+
+.content.student .sample-student{
+    min-height: 300px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.content.student .student-info{
+
+}
+
+.content.student .student-info .doc-info{
+
+}
+.content.student .student-info .doc-info .doc-title,.content.student .student-info .teacher-info .doc-title{
+    background: #E25B25;
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.content.student .student-info .search-form .control-label{
+    font-size: 12px;
+    text-align: left;
+    padding-right: 0;
+}
+
+.content.student .student-info .search-form .form-control{
+    border-radius: 0;
+    background-color: #F3961F;
+    color: #ffffff;
+}
+
+.content.student .student-info .doc-info .ran-detail{
+    background: #F1F0F0;
+    padding: 15px;
+}
+
+.content.student .student-info .doc-info .ran-detail .ran-detail-title{
+    color:#E25B25;
+    font-weight: bold;
+}
+
+.content.student .student-info .doc-info .ran-detail .ran-detail-item{
+
+}
+
+.content.student .student-info .teacher-info .ran-detail{
+    background: #F1F0F0;
+    padding: 15px;
+}
+
+.content.student .student-info .doc-info .ran-detail .see-more{
+    text-align: right;
+}
+
+.content.student .student-info .doc-info .ran-detail .see-more a{
+    color : #E25B25;
+}
+
+.content.student .student-info .doc-info .ran-detail .broch{
+    text-align: right;
+}
+
+.content.student .student-info .teacher-info p{
+    margin: 0;
+    font-weight: bold;
+    color:#5D5E5E;
+}
+
+.content.student .student-info .teacher-info .teacher-name{
+    color: #E25B25;
+    margin-top: 20px;
+}
+
+/*END STUDENT*/
+
 @media (max-width: 768px) {
     .container .row .course .info-course a {
         font-size: 2vw;
@@ -1348,6 +1598,12 @@ END COMMON
     .container .sidebar ,.container .content{
         display: block;
     }
+    .content.course-teacher .teacher-img {
+        top: 30%;
+    }
+    .content.student{
+        overflow: hidden;
+    }
 }
 
 @media(max-width: 480px) {
@@ -1411,6 +1667,30 @@ END COMMON
     .content .row.course-reason {
         display: block;
     }
+    .content .circle-calendar .calendar-content .ran, .content .circle-calendar .calendar-content .date {
+        font-size: 30px;
+    }
+    .content .plan-table td,.content .plan-table th {
+        font-size: 6px;
+    }
+    .content.course-teacher ul.mb {
+         margin-bottom: 10px;
+    }
+    .content.course-teacher .teacher-img {
+        position: relative;
+    }
+    .content.course-package .package-table td,.content.course-package .package-table th {
+        font-size: 6px;
+    }
+    .content.course-package .package-table-1 td {
+        font-size: 8px;
+    }
+    .content.course-package .package-table-1 th {
+        font-size: 8px;
+    }
+    .content.course-package p,.content.course-package ul li {
+        font-size: 10px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -1442,5 +1722,14 @@ END COMMON
     }
     .row.news-item .news-item-info .more-news .more-news-item span {
         font-size: 6px;
+    }
+    .content .circle-calendar .calendar-content .ran, .content .circle-calendar .calendar-content .date {
+        font-size: 20px;
+    }
+    .content .plan-table td, .content .plan-table th {
+        font-size: 4px;
+    }
+    .content.course-package .package-table td, .content.course-package .package-table th {
+        font-size: 4px;
     }
 }
