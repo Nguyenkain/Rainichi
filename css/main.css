@@ -704,17 +704,22 @@ END COMMON
     background: #353434;
     padding: 5px;
     border-bottom: 1px solid #ffffff;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .container .sidebar .sidebar-sub-menu .dropdown ul li a{
     color:#ffffff;
+    font-weight: bold;
 }
 
 .container .sidebar .sidebar-sub-menu .dropdown ul li a.active{
     color:#E25B25;
 }
 
+.container .sidebar .sidebar-sub-menu .dropdown ul li a:hover{
+    color:#E25B25;
+    text-decoration: none;
+}
 
 /*END SIDEBAR*/
 
@@ -1692,12 +1697,8 @@ END COMMON
         font-size: 10px;
     }
 }
-
-@media (max-width: 320px) {
-    .container .content .news-item .news-item-date {
-        padding: 0 5px;
-        font-size: 10px;
-    }
+@media (max-width: 420px){
+    /*LOGIN FORM FOR IP6+ => IP4 */
     .content .login-form {
         margin: 0;
         position: relative;
@@ -1715,10 +1716,16 @@ END COMMON
         display: none;
     }
     .content .login-form .forgot-password {
-         margin-bottom: 0;
+        margin-bottom: 0;
     }
     .content .login-form .login-btn .btn {
         margin-bottom: 15px;
+    }
+}
+@media (max-width: 320px) {
+    .container .content .news-item .news-item-date {
+        padding: 0 5px;
+        font-size: 10px;
     }
     .row.news-item .news-item-info .more-news .more-news-item span {
         font-size: 6px;
